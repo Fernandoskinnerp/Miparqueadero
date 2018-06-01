@@ -9,13 +9,12 @@ package miparqueadero;
  *
  * @author Estudiantes
  */
-public interface IVehiculo {
+public class Parqueadero {
     
-    private String placa;
-    private String placa ;
-    private String placa ;
+    int misVehiculos=Vehiculo[100];
     
-           
-          
+    ingresarVehiculo()
+    retirarVehiculo
+    consultarCupos
     
 }

@@ -9,13 +9,8 @@ package miparqueadero;
  *
  * @author Estudiantes
  */
-public interface IVehiculo {
+public class Vehiculo implements IVehiculo {
     
-    private String placa;
-    private String placa ;
-    private String placa ;
     
-           
-          
     
 }
