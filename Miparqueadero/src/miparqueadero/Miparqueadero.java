@@ -13,6 +13,8 @@ import java.util.Scanner;
  */
 public class Miparqueadero {
 
+    private static Vehiculo[] Vehiculo;
+
     /**
      * @param args the command line arguments
      */
@@ -26,22 +28,45 @@ public class Miparqueadero {
 
         switch (opcion) {
             case 1:
-                System.out.println("Ha seleccionado Ingresar Vehicyulo");
-
-                String placa;
+                Vehiculo miVehiculo=new Vehiculo();
+                miVehiculo=Vehiculo[100];
+                                     
+                System.out.println("Ha seleccionado Ingresar Vehiculo");
+                String placa = null;
                 String propietario;
                 float cilindraje;
+               
                 System.out.printf("Hora de ingreso");
                 break;
 
             case 2:
                 System.out.println("Retirar");
+                System.out.println("ingrese la placa del Vehiculo");
+                 if( placa != null )
+        {
+            int horaingreso = 530;
+            int horasalida = 630;
+            int valor = (horasalida - horaingreso)* 100;
+                    System.out.println(valor);
+                    
+            
                 break;
+        }
             case 3:
+            
                 System.out.println("Consultar");
+                
+                
                 break;
 
         }
-
+        }
     }
-}
+
+        
+    
+    
+
+    
+
+
